@@ -1,0 +1,19 @@
+namespace InterfaceSegregation.Ko;
+
+public interface IDragon{
+    void BreathFire();
+    void BreatheIce();
+}
+
+public class FireDragon : IDragon
+{
+    public void BreatheIce()
+    {
+       // ???????????????????????????????????
+    }
+
+    public void BreathFire()
+    {
+        // I am a fire dragon and I breathe fire!
+    }
+}
